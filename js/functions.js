@@ -60,6 +60,12 @@ function addSpaceBeforeUpperChar(str) {
 let res = addSpaceBeforeUpperChar("abCdEf");
 console.log(res);
 
+
+
+//********************************************************************** */
+//?  tar 4
+
+
 function countInStr(str1, str2) {
   let itr_ar = str1.matchAll(str2);
   let count=0;
@@ -73,3 +79,27 @@ function countInStr(str1, str2) {
   
 
 countInStr("eli eli", "eli");
+
+//********************************************************************** */
+//?  tar 5 bubble sort
+
+function sortStr(str) {
+    i= str.length-1;
+
+    for(let j=0;j<i-1;j++,i--) {
+        if(str[j]>str[j+1]) {
+            let temp=str[j];
+            str[j]=str[j+1];
+            str[j+1]=temp;
+        }
+    }
+    return str;
+}
+
+console.log(sortStr("abcda"))
+
+
+
+
+
+
