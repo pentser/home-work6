@@ -102,6 +102,18 @@ function sortStr(str) {
 let myString="abab";
 console.log(sortStr(myString.toLowerCase()))
 
+//********************************************************************** */
+//?  tar 6  
+// common calculator 
+/*## calculator 
+
+- index.html
+- js/main.js
+- css/style.css*/
+
+
+
+
 
 
 
