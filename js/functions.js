@@ -81,22 +81,26 @@ function countInStr(str1, str2) {
 countInStr("eli eli", "eli");
 
 //********************************************************************** */
-//?  tar 5 bubble sort
+//?  tar 5  sort string
+//*  the function change the string to lowercase before sorting:
 
 function sortStr(str) {
-    i= str.length-1;
+    const str_ar=str.split("");
+    let n= str.length-1;
 
-    for(let j=0;j<i-1;j++,i--) {
-        if(str[j]>str[j+1]) {
-            let temp=str[j];
-            str[j]=str[j+1];
-            str[j+1]=temp;
+    for(let j=0, i=0;j<n-1;j++,i++) {
+        if(str_ar[j]>str_ar[j+1]) {
+            let temp=str_ar[j];
+            str_ar[j]=str_ar[j+1];
+            str_ar[j+1]=temp;
         }
     }
-    return str;
+    return str_ar.join("");
 }
 
-console.log(sortStr("abcda"))
+
+let myString="abab";
+console.log(sortStr(myString.toLowerCase()))
 
 
 
