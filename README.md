@@ -3,7 +3,7 @@
 
 ## functions.js
 
-- include the 5 eccessies resoult as functions (1-5)
+- include the 5 Exercises results for functions (1-5)
 
 ## calculator 
 
@@ -11,7 +11,7 @@
 - js/main.js
 - css/style.css
 
-the calculator ferform common calculation:
+the calculator פerform common calculation:
 1) x+b
 2) x-b
 3) x*y
