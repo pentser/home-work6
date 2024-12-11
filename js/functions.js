@@ -1,28 +1,28 @@
 // ********************************************************************** */
 // //?  tar 1
 
-// function valid_id() {
+function valid_id() {
 
-//     let res=prompt("enter valid id number (9 digit)","example: 024594038");
+    let res=prompt("enter valid id number (9 digit)","example: 024594038");
 
-//     if(!res) {
-//         return false;
-//     }
+    if(!res) {
+        return false;
+    }
 
-//     if(res.length!=9) {
-//         return false;
-//     }
+    if(res.length!=9) {
+        return false;
+    }
 
-//     for(let i=0;i<9;i++) {
-//         if(res.charAt(c)<'0' || res.charAt(c)>'9') {
-//             return false;
-//         }
-//     }
-//     return true;
+    for(let i=0;i<9;i++) {
+        if(res.charAt(c)<'0' || res.charAt(c)>'9') {
+            return false;
+        }
+    }
+    return true;
 
-// }
+}
 
-// console.log(valid_id());
+console.log(valid_id());
 
 //********************************************************************** */
 //?  tar 2
