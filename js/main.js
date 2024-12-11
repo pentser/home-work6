@@ -14,24 +14,30 @@
 // let $minus= document.getElementById("-")
 // let $devide= document.getElementById("/");
 
+let $input = document.querySelector(".input input");
+
 let $row1 =document.querySelector(".row1");
 let $row2 =document.querySelector(".row2");
 let $row3 =document.querySelector(".row3");
 let $row4 =document.querySelector(".row4");
 $row1.addEventListener("click",(e)=> {
     console.log(e.target.id);
+    $input.value+=e.target.id;
 
 })
 $row2.addEventListener("click",(e)=> {
     console.log(e.target.id);
+    $input.value+=e.target.id;
 
 })
 $row3.addEventListener("click",(e)=> {
     console.log(e.target.id);
+    $input.value+=e.target.id;
 
 })
 $row4.addEventListener("click",(e)=> {
     console.log(e.target.id);
+    $input.value+=e.target.id;
 
 })
 

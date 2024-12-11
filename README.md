@@ -1,7 +1,7 @@
 # Home Work No 6
 ## eli pentser
 
-## function.js
+## functions.js
 
 - include the 5 eccessies resoult as functions (1-5)
 
