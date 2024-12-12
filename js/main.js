@@ -73,7 +73,7 @@ function calculate(expretion) {
             break;
 
         case "/":
-            if(operandX==0)     {
+            if(operandY==0)     {
                 alert("Cant divide by zero!!!");
                 operandX=0;
                 operandY=0;

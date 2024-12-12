@@ -20,7 +20,7 @@ the calculator פerform common calculation:
 6) = will present the result on alert.
 
 validation:
-1) 0/y - get elert of divide by Zero
+1) 4/0 - get elert of divide by Zero
 
 
 
