@@ -16,8 +16,8 @@ the calculator פerform common calculation:
 2) x-b
 3) x*y
 4) x/y
-5) C - will delete the last character.
-6) = will present the result on alert.
+5) C - will reset the inputbox
+6) = will present the result on the inputbox
 
 validation:
 1) 4/0 - get elert of divide by Zero
